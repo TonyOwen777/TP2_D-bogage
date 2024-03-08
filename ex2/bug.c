@@ -39,8 +39,7 @@ int main() {
     process_data2(data, size);
     process_data3(data, size);
 
-
-    // Libération de la mémoire
+    //Libération de la mémoire
     free(data);
 
     return 0;
